@@ -56,7 +56,7 @@ set(CMAKE_SHARED_MODULE_PREFIX "")
 
 # Determine whether we are in CIBUILDWHEEL
 # and whether we are building for the universal target
-set(_def_fortran TRUE)
+set(_def_fortran FALSE)
 #if( APPLE AND
 #    "$ENV{CIBUILDWHEEL}" STREQUAL "1" AND
 #    "$ENV{CIBW_ARCHS}" MATCHES "(universal2|arm64)")
